@@ -142,3 +142,4 @@
 /Users/thinhom/RiderProjects/ASM/ASM/obj/Release/net8.0/ASM.pdb
 /Users/thinhom/RiderProjects/ASM/ASM/obj/Release/net8.0/ASM.genruntimeconfig.cache
 /Users/thinhom/RiderProjects/ASM/ASM/obj/Release/net8.0/ref/ASM.dll
+/Users/thinhom/RiderProjects/ASM/ASM/obj/Release/net8.0/ASM.sourcelink.json

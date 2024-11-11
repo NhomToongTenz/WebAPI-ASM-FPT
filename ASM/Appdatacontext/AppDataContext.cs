@@ -30,7 +30,7 @@ public class AppDataContext : DbContext
             .HasKey(k => k.GameMode_id);
 
         modelBuilder.Entity<Player_GameMode>()
-            .ToTable("Player_GameModeController")
+            .ToTable("Player_GameMode")
             .HasKey(k => k.Player_GameMode_id);
 
         modelBuilder.Entity<Items>()

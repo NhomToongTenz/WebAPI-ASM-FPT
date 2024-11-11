@@ -18,13 +18,13 @@ public class GameModeServices : IGameModeServices
             }
 
             var players = _context.Player_GameMode
-                .Where(pg => pg.GameMode_id == gameMode.GameMode_id)
-                .Select(pg => pg.Player_id)
-                .ToList();
+                                  .Where(pg => pg.GameMode_id == gameMode.GameMode_id)
+                                  .Select(pg => pg.Player_id)
+                                  .ToList();
 
             var playerList = _context.Player
-                .Where(p => players.Contains(p.Player_id))
-                .ToList();
+                                     .Where(p => players.Contains(p.Player_id))
+                                     .ToList();
 
             return Task.FromResult(playerList);
         }
@@ -33,4 +33,6 @@ public class GameModeServices : IGameModeServices
             throw;
         }
     }
+
+
 }
